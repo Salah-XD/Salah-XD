@@ -1,10 +1,9 @@
 <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Dino_non-birthday_version.gif" width=100%>
 <h1 align="center">Hi 👋, I'm Salahudeen</h1>
-<h3 align="center">A passionate Software developer</h3>
+<h3 align="center">A passionate Software developer, A boy trying to Figure-out Stuff!!</h3>
 <br><br>
 <img align="right" alt="Coding" class="img"  border-radius:7px; src="https://i.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.webp">
-
-<br> <br><br>  🔭 I’m currently working on **XLRIUM**<br><br>    🌱 I’m currently learning **Swift,Go**<br><br>    👯 I’m looking to collaborate with other developer<br><br>           💬 Ask me about **Web development,Python**<br><br>    📫 How to reach me **thisissalah.dev@gmail.com**<br><br>    ⚡ Fun fact : **Sometimes I go hour without drinking Coffee.It's called Sleeping** <br>
+🔭 I’m currently working on XLRIUM<br><br>    🌱 I’m currently learning Swift,Go<br><br>    👯 I’m looking to collaborate with other developer<br><br>           💬 Ask me about Web development,Python<br><br>    📫 How to reach me thisissalah.dev@gmail.com<br><br>    ⚡ Fun fact : Sometimes I go hour without drinking Coffee.It's called Sleeping <br>
 
 
 ## 🌐 Socials:
