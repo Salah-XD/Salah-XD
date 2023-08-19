@@ -15,7 +15,7 @@
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Salah-XD&theme=dark&hide_border=false)<br/>
 
-[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=salah-xd)](https://github.com/Salah-XD/Salah-XD)
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=salah-xd&theme=dracula)](https://github.com/Salah-XD/Salah-XD)
 
 
 ## 🏆 GitHub Trophies
