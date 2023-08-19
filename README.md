@@ -1,4 +1,4 @@
-<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Dino_non-birthday_version.gif" width=100%>
+![Image23-min](https://github.com/Salah-XD/Salah-XD/assets/97298001/273a68bd-cffc-4352-b49c-9f38b36bf0c3)<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Dino_non-birthday_version.gif" width=100%>
 <h1 align="center">Hi 👋, I'm Salahudeen</h1>
 <h3 align="center">A passionate Software developer, A boy trying to Figure-out Stuff!!</h3>
 <br><br>
@@ -14,6 +14,8 @@
 # 📊 GitHub Stats:
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Salah-XD&theme=dark&hide_border=false)<br/>
+
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=salah-xd)](https://github.com/Salah-XD/Salah-XD)
 
 
 ## 🏆 GitHub Trophies
