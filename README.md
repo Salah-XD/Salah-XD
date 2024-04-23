@@ -5,6 +5,8 @@
 <img align="right" alt="Coding" class="img"  border-radius:7px; src="https://i.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.webp">
 🔭 I’m currently working on XLRIUM<br><br>    🌱 I’m currently learning Swift,Go<br><br>    👯 I’m looking to collaborate with other developer<br><br>           💬 Ask me about Web development,Python<br><br>    📫 How to reach me thisissalah.dev@gmail.com<br><br>    ⚡ Fun fact : Sometimes I go hour without drinking Coffee.It's called Sleeping <br>
 
+<a style="display:flex;justify-content:center" href="https://app.daily.dev/salahxd"><img src="https://api.daily.dev/devcards/v2/l3PGKpuMbcs2dDrE3klyj.png?r=3di&type=wide" width="652" alt="salah's Dev Card"/></a>
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/thisis_salah_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/salah-hu-deen) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/thisis_salah) 
