@@ -50,11 +50,10 @@
   <img src="./profile-3d-contrib/profile-night-view.svg" width="95%" alt="3D contribution calendar"/>
 </p>
 
-### Recent Activity &amp; Achievements
+### Activity Graph
 
 <p align="center">
-  <img src="./metrics-activity.svg" width="49%" alt="Recent activity"/>
-  <img src="./metrics-achievements.svg" width="49%" alt="Achievements"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Salah-XD&bg_color=1a1b27&color=c0caf5&line=70a5fd&point=ffffff&area=true&area_color=70a5fd&hide_border=true&radius=8" width="95%" alt="Contribution activity graph"/>
 </p>
 
 ### GitHub Stats
