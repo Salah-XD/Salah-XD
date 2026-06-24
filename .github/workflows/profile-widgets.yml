@@ -1,0 +1,85 @@
+name: Generate Profile Widgets
+
+# Builds the isometric 3D contribution calendar, the recent-activity card, and the
+# achievements card, then commits the generated SVGs back into the repo so the README
+# can display them. Runs daily and can be triggered manually from the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every day at 00:00 UTC
+  workflow_dispatch: # adds a "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  widgets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 1) Isometric 3D contribution calendar — uses the built-in token, no PAT needed.
+      #    Generates files into profile-3d-contrib/ (we use profile-night-view.svg).
+      - name: Build 3D isometric calendar
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+
+      # 2) Recent activity card — needs your PAT (METRICS_TOKEN).
+      - name: Build recent-activity card
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Salah-XD
+          filename: metrics-activity.svg
+          base: ""
+          output_action: none
+          config_timezone: Asia/Kolkata
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: all
+          plugin_activity_visibility: all
+          extras_css: |
+            body { background: #1a1b27; }
+            .background, svg .background { fill: #1a1b27 !important; }
+            h2 { color: #70a5fd !important; border-color: #2a2e45 !important; }
+            .field, p, span, text, tspan, li, td { color: #c0caf5 !important; fill: #c0caf5 !important; }
+            a { color: #70a5fd !important; }
+            .no-data, .meta, .small { color: #565f89 !important; }
+
+      # 3) Achievements card — needs your PAT (METRICS_TOKEN).
+      - name: Build achievements card
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Salah-XD
+          filename: metrics-achievements.svg
+          base: ""
+          output_action: none
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          extras_css: |
+            body { background: #1a1b27; }
+            .background, svg .background { fill: #1a1b27 !important; }
+            h2 { color: #70a5fd !important; border-color: #2a2e45 !important; }
+            .field, p, span, text, tspan, li, td { color: #c0caf5 !important; fill: #c0caf5 !important; }
+            a { color: #70a5fd !important; }
+            .no-data, .meta, .small { color: #565f89 !important; }
+
+      - name: Commit & push generated widgets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No widget changes to commit."
+          else
+            git commit -m "chore: refresh profile widgets"
+            git push
+          fi
