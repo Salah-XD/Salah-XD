@@ -25,8 +25,7 @@ jobs:
         uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: Salah-XD
+          USERNAME: Salah-XD # this action reads the user from the USERNAME env var, not a `with:` input
 
       # 2) Recent activity card — needs your PAT (METRICS_TOKEN).
       - name: Build recent-activity card
