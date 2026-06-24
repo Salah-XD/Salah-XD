@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: Salah-XD
 
       # 2) Recent activity card — needs your PAT (METRICS_TOKEN).
       - name: Build recent-activity card
