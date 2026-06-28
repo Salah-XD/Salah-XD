@@ -1,27 +1,42 @@
-<h1 align="center">Salahudeen</h1>
-<p align="center">Software Developer</p>
+# I'm **Salah**, a developer, entrepreneur, and builder driven by curiosity.
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1000&color=70A5FD&center=true&vCenter=true&width=520&lines=Building+XLRIUM;Currently+learning+Swift+%26+Go;Web+development+%2B+Python;A+boy+trying+to+figure+stuff+out" alt="What I'm up to" />
+<details>
+<summary><b>About Me</b></summary>
+
+<br>
+
+<p>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJobnRvd2twdWhxdWE5dDFnYnB5b2M2cm9tdTFieGV6dXB0OXB6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ule4vhcY1xEKQ/giphy.gif" width="450" alt="Cat coding">
 </p>
 
-<p align="center">
+Over the years, I've worked across software engineering, geospatial technologies, space education, and startup development—turning ideas into products that solve real problems. Whether it's building scalable web applications, designing GIS platforms, creating educational CubeSat programs, or launching new ventures, I enjoy working at the intersection of technology and impact.
+
+I believe the best projects are born from asking simple questions:
+
+> **Can this be done better?**  
+> **What can we learn by building it ourselves?**
+
+That mindset has led me to develop products ranging from survey and geospatial platforms to STEM education initiatives that introduce students to space technology and engineering.
+
+When I'm not coding or designing systems, you'll usually find me exploring new technologies, refining business ideas, teaching STEM concepts, or working on projects that combine innovation with practical value.
+
+For me, technology is more than writing code—it's about creating tools, experiences, and opportunities that make a meaningful difference.
+
+</details>
+
+
+<!-- <p align="center">
   <a href="https://www.linkedin.com/in/salah-hu-deen"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://twitter.com/thisis_salah"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
   <a href="https://instagram.com/thisis_salah_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="mailto:thisissalah.dev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://app.daily.dev/salahxd"><img src="https://img.shields.io/badge/daily.dev-CE3DF3?style=flat-square&logo=dailydotdev&logoColor=white" alt="daily.dev"/></a>
-</p>
+</p> -->
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Salah-XD&style=flat-square&color=70a5fd&label=Profile+views" alt="Profile views"/>
-</p>
 
----
 
-### Tech
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" alt="Python"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
@@ -40,14 +55,14 @@
 </p>
 <p align="center">
   <sub>Also: After Effects &middot; Premiere Pro &middot; Photoshop &middot; Illustrator &middot; Blender</sub>
-</p>
+</p> -->
 
 ---
 
 ### Contribution Graph
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="95%" alt="3D contribution calendar"/>
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="55%" alt="3D contribution calendar"/>
 </p>
 
 ### Activity Graph
@@ -65,4 +80,7 @@
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Salah-XD&hide_border=true&theme=tokyonight" alt="GitHub streak"/>
+</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Salah-XD&style=flat-square&color=70a5fd&label=Profile+views" alt="Profile views"/>
 </p>
